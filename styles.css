@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #00ff00;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #00cc00;
+}
+
+.hidden {
+    display: none;
+}
+
+#hacker-typer textarea {
+    width: 80%;
+    height: 200px;
+    background: #000;
+    color: #0f0;
+    border: 2px solid #0f0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#output {
+    margin-top: 10px;
+    color: #0f0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#virus-screen {
+    background: #ff0000;
+    padding: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 24px;
+    pointer-events: none;
+}
